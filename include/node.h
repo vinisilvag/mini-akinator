@@ -11,4 +11,6 @@ struct node_t* read_from_file();
 
 struct node_t* create_node(char* content);
 
+int is_leaf(struct node_t* node);
+
 #endif
